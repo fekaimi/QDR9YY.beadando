@@ -18,10 +18,10 @@ def EX9(num):
     for i in m:
         if is_prime(i)=='Prime':
             k.append(i)
-    max = 0
-    for j in k:
-        if j>max:
-            max = j
+    max = k[len(k)]
+    #for j in k:
+        #if j>max:
+            #max = j
     return max
 
 
